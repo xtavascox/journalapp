@@ -21,6 +21,9 @@
     &:disabled{
       background-color: lighten($color: $primary, $amount: 15);  
     }
+    &:hover{
+        background-color: darken($color: $primary, $amount: 20);
+    }
 }
 .btn-block{
     width: 100%;
